@@ -24,6 +24,7 @@ useEffect(() => {
 
         <div
           key={event.title}
+          data-testid="slide-card"
           className={`SlideCard SlideCard--${
             index === idx ? "display" : "hide"
           }`}
